@@ -139,24 +139,13 @@ const App = () => {
           <h2>¿Como puedo ayudarte hoy?</h2>
         </div>
       </div>
-      <p className="heroP">The world's best financial assistance, <br />powered by llama3 + React.js + Messenger Platform</p>
+      <p className="heroP">
+        {/* The world's best ensurance assistance,  */}
+      <br />powered by llama3 + React.js + Messenger Platform</p>
       <div className="button-container">
-      <button className="demo-btn" onClick={() => window.location.href = 'http://localhost:8501/'}>
-          <span className="demo-btn-content">Chat</span>
-      </button>
       <button className="demo-btn" onClick={() => window.location.href = 'http://localhost:8501/'}>
         <span className="demo-btn-content">Comenzar</span>
       </button>
-          {/* <Link to="/questions/invertir">
-            <button className="demo-btn">
-              <span className="demo-btn-content">Invertir</span>
-            </button>
-          </Link>
-          <Link to="/questions/ahorrar">
-            <button className="demo-btn">
-              <span className="demo-btn-content">Ahorrar</span>
-            </button>
-          </Link> */}
       </div>
       <div className="mountains">
       </div>

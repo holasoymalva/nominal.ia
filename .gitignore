@@ -1,0 +1,59 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de compilación de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configuración de IDE y editor
+.vscode/
+.idea/
+*.swp
+
+# Archivos de entorno y configuración sensible
+.env
+*.env
+
+# Cachés y archivos temporales
+instance/
+*.log
+*.pot
+*.pyc
+*.sqlite3
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos creados por testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+
+# Documentación y reportes
+docs/_build/
+*.rst~
+
+# Archivos Docker y CI/CD
+*.dockerfile
+*.envrc
+__MACOSX
+
+# Archivos de lock y dependencias
+Pipfile.lock
+poetry.lock
